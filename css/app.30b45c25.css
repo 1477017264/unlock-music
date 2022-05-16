@@ -486,7 +486,7 @@ a:hover {
 	}
 
 	.el-table tr:hover td {
-		background: rgba(0, 0, 0, 0.2) !important
+		background: rgba(0, 0, 0, 0.2)
 	}
 
 	a {

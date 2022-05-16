@@ -2188,9 +2188,6 @@ audio {
 	width: 100%;
 }
 
-.el-table tr:hover td {
-	background-color: transparent !important;
-}
 
 .el-table td.el-table__cell {
 	border-bottom: none !important;
