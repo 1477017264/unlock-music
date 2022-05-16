@@ -1,7 +1,7 @@
 {
 	"name": "音乐解锁",
 	"short_name": "音乐解锁",
-	"theme_color": "#4DBA87",
+	"theme_color": "#409eff",
 	"icons": [{
 		"src": "./img/icons/android-chrome-192x192.png",
 		"sizes": "192x192",

@@ -2074,7 +2074,104 @@ body{
 	.el-table_1_column_1{
 		width: 100px !important;
 	}
+	
+	audio{
+		width: 100%;
+	}
+	
+	.el-table tr{
+		background-color: #212121;
+		    display: inline-flex;
+		    flex-direction: row;
+		    flex-wrap: nowrap;
+		    align-content: center;
+		    justify-content: center;
+		    align-items: center;
+	}
+	.el-table .el-table__cell {
+	    padding: 12px 0;
+	    text-overflow: ellipsis;
+	    vertical-align: middle;
+	    position: relative;
+	    text-align: left;
+	    min-width: 120px !important;
+	}
 }
+
+audio{
+		height: 40px;
+		border-radius: 6px;
+		background: #f1f3f4;
+		
+	}
+
+@media (prefers-color-scheme: dark) {
+	.el-container{
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.el-icon-upload{
+		color: rgba(0, 0, 0, .5) !important;
+	}
+	.el-row:nth-child(2) button{
+		background: rgba(0, 0, 0, 0.6);
+		color: rgba(255, 255, 255, .6);
+	}
+	.el-row:nth-child(2) button:nth-child(1){
+		background: rgba(0, 0, 0, 0.6);
+		color: rgba(255, 255, 255, .6);
+	}
+	.el-row:nth-child(2) label.el-checkbox{
+		background: rgba(0, 0, 0, 0.6);
+		color: rgba(255, 255, 255, .6);
+	}
+	.um-config-dialog{
+		background: rgba(50, 50, 50, 1) !important;
+		border-radius: 10px !important;
+	}
+	.el-dialog__title{
+		color: rgba(255, 255, 255, .6) !important;
+	}
+	
+	.el-input__inner{
+		background: #2d2d2d !important;
+	}
+	
+	.el-input__count-inner{
+		background: #2d2d2d !important;
+	}
+	
+	.el-button--primary{
+		background: #101010 !important;
+	}
+	
+	.el-table{
+		border-radius: 8px;
+		background: rgba(0,0,0,0.6) !important;
+	}
+	.el-table .el-table__cell{
+		background: #212121 !important;
+		border: none;
+		width: 100%;
+	}
+	
+	.mb-3>span:nth-child(1){
+		color: rgba(255, 255, 255, .7);
+	}
+	
+}
+
+.el-table td.el-table__cell {
+	    border-bottom: none !important;
+	}
+
+.el-table .cell{
+	text-align: center;
+}
+
+.el-table{
+		border-radius: 8px;
+		background: rgba(255,255,255,0.7);
+	}
 
 @media only screen and (max-width:855px) {	
 	.el-table_1_column_5 .cell{
@@ -2092,9 +2189,31 @@ body{
 	.el-container{
 		margin: 5% !important;
 	}
+	/* .mb-3>span{
+		color: rgba(255, 255, 255, .7) !important;
+	} */
 }
 
-
+@media only screen and (max-width:1059px) {	
+	.el-table_1_column_5 .cell{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: space-around;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.el-table_1_column_5 .cell button{
+		margin: 3px;
+	}
+	
+	.el-container{
+		margin: 5% !important;
+	}
+/* 	.mb-3>span{
+		color: rgba(255, 255, 255, .7) !important;
+	} */
+}
 
 @media only screen and (max-width:617px) {
 	.mb-3>span:nth-child(1){
@@ -2118,8 +2237,7 @@ body{
 		margin: auto !important;
 	}
 }
-	
-	
+
 
 @media only screen and (max-width:767px) {
 	
