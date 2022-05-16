@@ -1938,6 +1938,80 @@
 	left: 100%
 }
 
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://iw233.cn/api.php?sort=mp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+}
+
+.el-upload-dragger{
+	background: transparent !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.el-upload-dragger .el-icon-upload {
+    font-size: 67px;
+    color: #d5d9e2;
+    margin: 0px 0 16px !important;
+}
+.el-upload__tip>div:nth-child(2){
+	display: none;
+	opacity: 0;
+}
+.v-modal{
+	background: transparent !important;
+	display: none;
+}
+.el-container{
+	background: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
+	border-radius: 10px;
+	margin: 10% 10%;
+}
+
+.el-footer{
+	height: auto !important;
+	margin-bottom: 20px;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.el-row:nth-child(2) button{
+		margin: 10px!important;
+		margin-left: 0!important;
+		margin-top: 0!important;
+		background: rgba(255, 255, 255, 1);
+		border-radius: 6px;
+	}
+	
+	.el-button--primary{
+		background: #66b1ff !important;
+	}
+	
+	.el-dialog__headerbtn{
+		width: 16px !important;
+		height: 16px !important;
+	}
+	
+	.el-row:nth-child(2) label.el-checkbox{
+		margin: 10px!important;
+		margin-left: 0!important;
+		margin-top: 0!important;
+		display: inline-block;
+		background: rgba(255, 255, 255, 1);		border-radius: 6px;
+		padding: 10px 17.5px 10px 17.5px !important;
+	}
+
 @media only screen and (max-width:423px) {
 	.mb-3>span:nth-child(1){
 		width:100%;
@@ -1960,14 +2034,31 @@
 		margin: 10px!important;
 		margin-left: 0!important;
 		margin-top: 0!important;
+		background: rgba(255, 255, 255, 1);
+		border-radius: 6px;
+		width: 100%;
 	}
 	
-	.el-row:nth-child(2) label{
+	.el-container{
+		margin: auto !important;
+	}
+	
+	.el-button--primary{
+		background: #66b1ff !important;
+	}
+	
+	.el-dialog__headerbtn{
+		width: 16px !important;
+		height: 16px !important;
+	}
+	
+	.el-row:nth-child(2) label.el-checkbox{
 		margin: 10px!important;
 		margin-left: 0!important;
 		margin-top: 0!important;
 		display: inline-block;
-		width: 117px;
+		background: rgba(255, 255, 255, 1);		border-radius: 6px;
+		width: 100%;
 	}
 	.el-table_1_column_5 .cell{
 		display: flex;
@@ -1997,7 +2088,13 @@
 	.el-table_1_column_5 .cell button{
 		margin: 3px;
 	}
+	
+	.el-container{
+		margin: 5% !important;
+	}
 }
+
+
 
 @media only screen and (max-width:617px) {
 	.mb-3>span:nth-child(1){
@@ -2015,6 +2112,10 @@
 	}
 	.el-table_1_column_5 .cell button{
 		margin: 3px;
+	}
+	
+	.el-container{
+		margin: auto !important;
 	}
 }
 	
